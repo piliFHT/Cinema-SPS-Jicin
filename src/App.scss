@@ -1,0 +1,46 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.hder {
+  background-color: #f5f5f7 !important;
+}
+
+.img {
+  width: 35%;
+  height: auto;
+}
+
+.hedP {
+  font-size: 15px;
+}
+
+.hron{
+  height: 25px;
+  margin-top: 2vh;
+  margin-bottom: 15vh;
+  background-color: rgb(223, 223, 223);
+}
+.seats-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px; /* Adjust the max-width as needed */
+  margin: 20px auto; /* Add margin for centering */
+}
+
+.seat-row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px; /* Add padding between rows */
+}
+
+.seat-col {
+  margin: 5px; /* Add margin around each seat */
+  padding: 10px; /* Add padding within each seat */
+  border-radius: 10px; /* Add border-radius for curved edges */
+}
+
+.copyright{
+  text-decoration: none;
+  color: black;
+}
